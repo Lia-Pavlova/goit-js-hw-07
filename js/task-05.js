@@ -10,7 +10,7 @@ const refs = {
 };
 
 const onInput = () => {
-  refs.spanEl.textContent = refs.inputEl.value ? refs.inputEl.value : 'незнакомец';
+  refs.spanEl.textContent = refs.inputEl.value.trim() ? refs.inputEl.value : 'незнакомец';
 };
 refs.inputEl.addEventListener('input', onInput);
 

@@ -43,6 +43,6 @@ function getRandom(min, max) {                                // генерац�
 
 function destroyBoxes() {                                    // очистить по клику
     boxCollection.innerHTML = '';
-    inputNumberEl.value = '';
+    inputNumber.value = '';
     boxSize = 30;
 }
